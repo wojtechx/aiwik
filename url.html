@@ -1,62 +1,27 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <title>Submit Article URL</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      padding: 2em;
-      max-width: 500px;
-      margin: auto;
-    }
-    input, button {
-      padding: 10px;
-      margin-top: 10px;
-      width: 100%;
-      font-size: 1em;
-    }
-    #status {
-      margin-top: 1em;
-    }
-  </style>
-</head>
-<body>
+<script>
+  const form = document.getElementById("urlForm");
+  const status = document.getElementById("status");
 
-  <h2>📤 Submit Article URL</h2>
+  form.addEventListener("submit", async (e) => {
+    e.preventDefault();
+    const url = document.getElementById("urlInput").value;
+    status.innerText = "⏳ Submitting...";
 
-  <form id="urlForm">
-    <input type="url" id="urlInput" name="url" placeholder="https://example.com/article" required />
-    <button type="submit">Submit</button>
-  </form>
+    try {
+      const res = await fetch("https://n8n1git-u2d627.vm.elestio.app/webhook/c1ebf1c4-e7b7-4c04-a57b-f792573f6a2c", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ url })
+      });
 
-  <div id="status"></div>
-
-  <script>
-    const form = document.getElementById("urlForm");
-    const status = document.getElementById("status");
-
-    form.addEventListener("submit", async (e) => {
-      e.preventDefault();
-      const url = document.getElementById("urlInput").value;
-
-      try {
-        const res = await fetch("https://n8n1git-u2d627.vm.elestio.app/webhook/c1ebf1c4-e7b7-4c04-a57b-f792573f6a2c", {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ url })
-        });
-
-        if (res.ok) {
-          status.innerText = "✅ URL submitted successfully!";
-        } else {
-          status.innerText = "⚠️ Submission failed.";
-        }
-      } catch (err) {
-        status.innerText = "❌ Network error.";
+      if (res.ok) {
+        status.innerText = "✅ URL submitted successfully!";
+        form.reset();
+      } else {
+        status.innerText = "⚠️ Submission failed.";
       }
-    });
-  </script>
-
-</body>
-</html>
+    } catch (err) {
+      status.innerText = "❌ Network error.";
+    }
+  });
+</script>
