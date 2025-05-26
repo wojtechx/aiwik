@@ -1,1 +1,0 @@
-markdown<br>Title: Mother Warns After Son's Arrest Over Cocaine at Thai Airport – Summary<br>URL: dailymail.co.uk/news/article-14738781/My-son-called-idiot-cocaine-wallet-Thai-airport-SET-heres-warning-Brit-holidaymakers.html<br><br>A mother claims her son was set up after cocaine was found in his passport at Phuket airport, warning other travelers.
