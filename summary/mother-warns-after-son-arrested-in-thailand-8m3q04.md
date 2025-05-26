@@ -1,1 +1,0 @@
-markdown<br>Title: Mother Warns After Son Arrested in Thailand – Summary<br>URL: https://www.dailymail.co.uk/news/article-14738781/My-son-called-idiot-cocaine-wallet-Thai-airport-SET-heres-warning-Brit-holidaymakers.html<br><br>A mother warns travelers after her son was arrested in Thailand when cocaine fell from his passport, claiming he was set up.
