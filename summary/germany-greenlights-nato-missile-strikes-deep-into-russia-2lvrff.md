@@ -1,0 +1,1 @@
+markdown<br>Title: Germany Greenlights NATO Missile Strikes Deep Into Russia – Summary<br>URL: dailymail.co.uk/news/article-14750895/Germany-greenlights-use-NATO-missile-strikes-deep-Russia-Macron-demands-Trump-crushing-action-against-liar-Putin.html<br><br>Germany authorizes NATO to strike deep into Russia as Macron urges Trump to take action against Putin.
