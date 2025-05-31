@@ -1,0 +1,1 @@
+markdown<br>Title: Germany Approves NATO Strikes Deep into Russia – Summary<br>URL: dailymail.co.uk/news/article-14750895/Germany-greenlights-use-NATO-missile-strikes-deep-Russia-Macron-demands-Trump-crushing-action-against-liar-Putin.html<br><br>Germany lifts range restrictions on weapons to Ukraine, enabling strikes deep into Russia as tensions escalate.
